@@ -126,5 +126,31 @@ footer div a {
     color: white;
 }
 @media (min-width: 850px) {
-
+    #projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "header header"
+        "project1 project2"
+        "priject3 project4";
+        justify-items: center;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    #projects div:first-child {
+        grid-area: header;
+    }
+    #project div:nth-child(2) {
+        grid-area: project1;
+    }
+    #project div:nth-child(3) {
+        grid-area: project2;
+    }
+    #project div:nth-child(4) {
+        grid-area: project3;
+    }
+    #project div:nth-child(5) {
+        grid-area: project4;
+    }
 }
