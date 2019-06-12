@@ -1,5 +1,6 @@
 :root {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 nav {
     background-color: #7e5cad;
