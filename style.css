@@ -125,3 +125,6 @@ footer {
 footer div a {
     color: white;
 }
+@media (min-width: 850px) {
+
+}
