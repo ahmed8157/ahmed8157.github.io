@@ -131,7 +131,7 @@ footer div a {
         grid-template-areas:
         "header header"
         "project1 project2"
-        "priject3 project4";
+        "project3 project4";
         justify-items: center;
         margin-left: 60px;
         margin-right: 60px;
