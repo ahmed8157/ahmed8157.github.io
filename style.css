@@ -37,10 +37,8 @@ nav div a {
 
 #welcome-section {
     color: white;
-    height: calc(100vh - 80px);
+    height: 100vh;
     background-color: #7e5cad;
-    padding-top: 80px;
-    margin-top: -80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
