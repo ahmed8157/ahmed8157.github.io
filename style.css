@@ -58,14 +58,15 @@ nav div a:hover {
 .project-tile a figure img {
     width: 100%;
     margin: 0;
-    border-color: #c63cf0;
+    border-color: white;
     border-style: solid;
-    border-width: 0 0 2px 0;
 }
 #projects {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #c63cf0;
+    width: 100%;
 }
 #projects div {
     margin: 30px;
@@ -73,17 +74,20 @@ nav div a:hover {
 #projects div:first-child {
     margin-top: 100px;
     font-size: 25px;
-    color: #c63cf0;
+    color: white;
 }
 .project-tile {
-    border: 2px solid #c63cf0;
+    border: 2px solid white;
     width: 300px;
+    border-radius: 1%;
+    background-color: white;
 }
 figcaption {
     text-align: center;
     margin: 0;
     padding: 10px;
     font-weight: 600;
+    background-color: white;
 }
 figure {
     width: 100%;
@@ -123,7 +127,7 @@ figure {
     margin: 40px;
 }
 footer {
-    background-color: #c63cf0;
+    background-color: #6c3cf0;
     padding: 50px 0;
     color: white;
     display: flex;
@@ -142,8 +146,8 @@ footer div a {
         "project1 project2"
         "project3 project4";
         justify-items: center;
-        margin-left: 60px;
-        margin-right: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     #projects div:first-child {
         grid-area: header;
