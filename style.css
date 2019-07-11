@@ -53,7 +53,7 @@ nav div a:hover {
     align-items: center;
 }
 #welcome-section h1 {
-    font-size: 30px;
+    font-size: 50px;
 }
 .project-tile a figure img {
     width: 100%;
@@ -74,7 +74,7 @@ nav div a:hover {
 }
 #projects div:first-child {
     margin-top: 100px;
-    font-size: 25px;
+    font-size: 35px;
     color: white;
 }
 .project-tile {
@@ -107,7 +107,7 @@ figure {
     align-items: center;
 }
 #links div:first-child {
-    font-size: 25px;
+    font-size: 35px;
     margin: 50px 0 20px 0;
 }
 #links div a i {
