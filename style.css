@@ -40,7 +40,8 @@ nav div:nth-child(2) a {
     padding: 30px 23px;
 }
 nav div a:hover {
-    background-color: #a200ff;
+    background-color: #ffd000;
+    color: #343a40;
 }
 
 #welcome-section {
