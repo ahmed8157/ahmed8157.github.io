@@ -124,7 +124,7 @@ section {
     #projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 1fr;
         grid-template-areas:
         "header header"
         "project1 project2"
