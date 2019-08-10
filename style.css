@@ -82,6 +82,7 @@ nav div a:hover {
     width: 300px;
     border-radius: 1%;
     background-color: white;
+    width: 90%;
 }
 .project-tile a {
     text-decoration-line: none;
