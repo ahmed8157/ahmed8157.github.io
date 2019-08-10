@@ -8,7 +8,7 @@
     padding: 0;
 }
 nav {
-    background-color: #6c3cf0;
+    background-color: #343a40;
     position: fixed;
     top: 0;
     left: 0;
@@ -40,13 +40,13 @@ nav div:nth-child(2) a {
     padding: 30px 23px;
 }
 nav div a:hover {
-    background-color: #3c90f0;
+    background-color: #a200ff;
 }
 
 #welcome-section {
-    color: white;
+    color: black;
     height: calc(100vh + 160px);
-    background-color: #6c3cf0;
+    background-color: #ffd000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,7 @@ nav div a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #c63cf0;
+    background-color: white;
     width: 100%;
     padding-bottom: 100px;
 }
@@ -75,7 +75,7 @@ nav div a:hover {
 #projects div:first-child {
     margin-top: 100px;
     font-size: 35px;
-    color: white;
+    color: black;
 }
 .project-tile {
     border: 2px solid white;
@@ -97,10 +97,10 @@ figure {
 }
 .project-tile a {
     text-decoration-line: none;
-    color: #c63cf0;
+    color: black;
 }
 #links {
-    background-color: #3c90f0;
+    background-color: #a200ff;
     color: white;
     display: flex;
     flex-direction: column;
@@ -115,7 +115,7 @@ figure {
 
 }
 #links div a i:hover {
-    color: #6c3cf0;
+    color: #ffd000;
     transition: 0.5s;
 }
 #links div:nth-child(2) {
@@ -128,7 +128,7 @@ figure {
     margin: 40px;
 }
 footer {
-    background-color: #6c3cf0;
+    background-color: #a200ff;
     padding: 50px 0;
     color: white;
     display: flex;
