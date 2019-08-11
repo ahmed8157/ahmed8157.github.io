@@ -57,12 +57,6 @@ nav div a:hover {
 #welcome-section h1 {
     font-size: 50px;
 }
-.project-tile a figure img {
-    width: 100%;
-    margin: 0;
-    border-color: white;
-    border-style: solid;
-}
 #projects {
     display: flex;
     flex-direction: column;
@@ -80,15 +74,7 @@ nav div a:hover {
     color: #343a40;
 }
 .project-tile {
-    border: 2px solid white;
-    width: 300px;
-    border-radius: 1%;
-    background-color: white;
     width: 90%;
-}
-.project-tile a {
-    text-decoration-line: none;
-    color: #343a40;
 }
 #links {
     background-color: #a200ff;
