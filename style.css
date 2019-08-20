@@ -35,10 +35,10 @@ nav div a {
     text-decoration-line: none;
 }
 nav div:nth-child(1) a {
-    padding: 23px;
+    padding: 30px 15px;
 }
 nav div:nth-child(2) a {
-    padding: 30px 23px;
+    padding: 30px 15px;
 }
 nav div a:hover {
     background-color: #ffd000;
